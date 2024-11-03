@@ -12,11 +12,16 @@ npm install mit-geolocation
 
 
 ```js
-import { multiply } from 'mit-geolocation';
+import { searchAddressByCoord } from 'mit-geolocation';
 
-// ...
+const result = await searchAddressByCoord("-6.3125659999999995", "106.8620154", "your-registered-token");
+```
 
-const result = await multiply(3, 7);
+
+```js
+import { searchAddressByName } from 'mit-geolocation';
+
+const result = await searchAddressByName("tugu jogja", "your-registered-token");
 ```
 
 
@@ -29,5 +34,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)

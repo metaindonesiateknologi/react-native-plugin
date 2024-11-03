@@ -12,8 +12,7 @@ OR
 
 add package repository into your package.json:
 ```sh
-
- "mit-geolocation": "git+https://github.com/metaindonesiateknologi/react-native-plugin.git"
+"mit-geolocation": "github:metaindonesiateknologi/react-native-plugin"
 ```
 
 ## Usage

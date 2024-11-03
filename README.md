@@ -5,7 +5,15 @@ MIT Geolocation Plugin
 ## Installation
 
 ```sh
-npm install mit-geolocation
+npm install https://github.com/metaindonesiateknologi/react-native-plugin.git
+```
+
+OR 
+
+add package repository into your package.json:
+```sh
+
+ "mit-geolocation": "git+https://github.com/metaindonesiateknologi/react-native-plugin.git"
 ```
 
 ## Usage
